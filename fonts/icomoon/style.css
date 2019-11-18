@@ -1,0 +1,56 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-clock-o {
+  width: 0.8571428571428571em;
+}
+
+.icon-download {
+  width: 0.9285714285714285em;
+}
+
+.icon-camera {
+  width: 1.0714285714285714em;
+}
+
+.icon-map-marker {
+  width: 0.5714285714285714em;
+}
+
+.icon-twitter {
+  width: 0.9285714285714285em;
+}
+
+.icon-bars {
+  width: 0.8571428571428571em;
+}
+
+.icon-code {
+  width: 1.0714285714285714em;
+}
+
+.icon-dollar {
+  width: 0.5697857142857142em;
+}
+
+.icon-long-arrow-left {
+  width: 1.0357142857142856em;
+}
+
+.icon-building {
+  width: 0.7857142857142857em;
+}
