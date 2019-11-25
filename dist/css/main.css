@@ -20,6 +20,11 @@ button {
   border: none;
 }
 
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .lone-link {
   background-color: #dc3545;
   padding: 15px;
@@ -27,6 +32,9 @@ button {
   color: white;
   border-radius: 10px;
   text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .form-submit {
@@ -46,6 +54,23 @@ button {
   display: block;
 }
 
+.white-dots {
+  position: relative;
+  width: 100%;
+}
+
+.white-dots::before {
+  content: "";
+  background-image: url("../../images/white-dots.png");
+  background-repeat: repeat;
+  position: absolute;
+  top: -30px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -54,11 +79,8 @@ button {
   display: block;
 }
 
-.banner {
-  padding: 30px;
-  color: white;
-  z-index: 2;
-  position: relative;
+.nav-bar {
+  display: none;
 }
 
 .hero-img {
@@ -79,18 +101,25 @@ button {
   z-index: 1;
 }
 
-header {
-  padding: 30px;
-  color: white;
-  position: relative;
-  z-index: 2;
-}
-
 .logo {
   font-size: 2.4rem;
 }
 
 .dot {
   color: #dc3545;
+}
+
+.banner {
+  padding: 30px;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+header {
+  padding: 30px;
+  color: white;
+  position: relative;
+  z-index: 2;
 }
 /*# sourceMappingURL=main.css.map */
