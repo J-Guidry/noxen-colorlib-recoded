@@ -6,6 +6,7 @@ body {
 
 ul {
     padding-left: 0;
+    margin-top: 0;
 }
 
 li {
@@ -16,6 +17,9 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+}
 
 // Colors
 $red: #dc3545;
