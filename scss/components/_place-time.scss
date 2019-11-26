@@ -1,0 +1,9 @@
+.location-time {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .location-time {
+        display: block;
+    }
+}

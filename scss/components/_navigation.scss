@@ -6,6 +6,25 @@
     display: block;
 }
 
-.nav-bar {
+.desktop-nav {
     display: none;
 }
+
+.bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    fill: $red;
+    height: 15px;
+}
+
+.mobile-btn {
+    background-color: white;
+}
+
