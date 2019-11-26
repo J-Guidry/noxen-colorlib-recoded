@@ -1,0 +1,30 @@
+.news {
+    text-align: center;
+}
+
+.news-heading {
+    position: relative;
+    color: $red;
+    padding-bottom: 10px;
+    font-weight: 300;
+    position: relative;
+}
+
+.news-heading::after {
+    content: "";
+    position: relative;
+    border-bottom: #dc3545 3px solid;
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.news p {
+    color: $dark-blue;
+    margin-bottom: 50px;
+}
+
+.news-slider {
+    display: none;
+}
