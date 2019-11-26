@@ -1,6 +1,41 @@
 .mobile-nav {
-    display: none;
+    position: fixed;
+    right: 0;
+    transform: translatex(120%);
+    width: 310px;
+    padding: 10px;
+    background: white;
+    z-index: 3;
+    height: 100vh;
+
+    &--ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        height: 50vh;
+        padding-left: 25px;
+        margin-top: 15px;
+    }
 }
+
+.cross {
+    display: block;
+    margin-left: auto;
+}
+
+.mobile-nav--li {
+    padding: 20px;
+    padding-bottom: 10px;
+    & a {
+        padding: 10px;
+        display: inline-block;
+        width: 100%;
+        color: #212529;
+        font-size: 20px;
+    }
+}
+
 
 .display-mobile {
     display: block;
