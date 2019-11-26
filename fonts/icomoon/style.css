@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-home {
+  width: 0.9285714285714285em;
+}
+
 .icon-clock-o {
   width: 0.8571428571428571em;
 }
