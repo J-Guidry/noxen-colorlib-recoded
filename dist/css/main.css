@@ -242,4 +242,63 @@ header {
   display: block;
   text-align: center;
 }
+
+.ceo-message {
+  padding: 30px;
+  color: #364d59;
+  background-color: #f6f5f5;
+}
+
+.signature {
+  width: 40vw;
+  display: inline-block;
+}
+
+.name-title {
+  display: inline-block;
+  width: 40vw;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.expertise {
+  background-color: #f6f5f5;
+  padding: 10px 20px;
+  color: #364d59;
+}
+
+.percent {
+  float: right;
+}
+
+.progress-bar {
+  background-color: #e9ecef;
+  height: 10px;
+}
+
+.writing {
+  width: 55%;
+  background-color: #dc3545;
+  height: 10px;
+}
+
+.wordpress {
+  width: 85%;
+  background-color: #dc3545;
+  height: 10px;
+}
+
+.bootstrap {
+  width: 93%;
+  background-color: #dc3545;
+  height: 10px;
+}
+
+.jquery {
+  width: 83%;
+  background-color: #dc3545;
+  height: 10px;
+}
 /*# sourceMappingURL=main.css.map */
