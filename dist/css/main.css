@@ -301,4 +301,57 @@ header {
   background-color: #dc3545;
   height: 10px;
 }
+
+.journey {
+  background-image: url("../../images/img_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 55px 0;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.journey::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.journey-heading {
+  font-weight: 300;
+  margin: auto;
+  max-width: 50%;
+  line-height: 2.2rem;
+}
+
+.amount {
+  background-color: #222;
+  color: white;
+  padding: 20px 10px;
+}
+
+.amount-icon {
+  display: inline-block;
+  margin-left: 15px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.amount-text {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.amount-number {
+  color: #ffd692;
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=main.css.map */

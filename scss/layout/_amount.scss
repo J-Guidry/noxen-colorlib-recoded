@@ -1,0 +1,21 @@
+.amount {
+    background-color: #222;
+    color: white;
+    padding: 20px 10px;
+}
+
+.amount-icon {
+    display: inline-block;
+    margin-left: 15px;
+    filter: invert(1);
+}
+
+.amount-text {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.amount-number {
+    color: $yellow;
+    font-size: 1.6rem;
+}
