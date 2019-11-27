@@ -1,0 +1,37 @@
+.testimonials {
+    background-color: $light-bg;
+    padding: 30px;
+    text-align: center;
+    color: $dark-blue;
+}
+
+.client {
+    margin: auto;
+    background-color: white;
+    max-width: 85%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.client-img {
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.mike {
+    background-image: url('../../images/person_1.jpg');
+    background-size: contain;
+}
+
+.jean {
+    background-image: url('../../images/person_2.jpg');
+    background-size: contain;
+}
+
+.katie {
+    background-image: url('../../images/person_3.jpg');
+    background-size: contain;
+}
+
