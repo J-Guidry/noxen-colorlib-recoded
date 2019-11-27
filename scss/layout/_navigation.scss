@@ -63,3 +63,14 @@
     background-color: white;
 }
 
+.footer-nav {
+    color: rgba(255,255,255, 0.5);
+}
+
+.footer-nav:last-of-type {
+    margin-bottom: 80px;
+}
+
+.footer-nav li {
+    line-height: 2.2rem;
+}

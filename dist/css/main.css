@@ -112,6 +112,18 @@ header {
   background-color: white;
 }
 
+.footer-nav {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-nav:last-of-type {
+  margin-bottom: 80px;
+}
+
+.footer-nav li {
+  line-height: 2.2rem;
+}
+
 main {
   margin-top: 15px;
   padding-bottom: 15px;
@@ -123,6 +135,39 @@ main {
   z-index: 2;
   position: relative;
   padding-bottom: 50px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  padding-top: 30px;
+  padding-left: 5%;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.colorlib {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+
+.heart {
+  height: 15px;
+  fill: #dc3545;
+}
+
+#email {
+  padding: 15px 13px;
+  border-radius: 3px;
+  border: none;
 }
 
 .location-time {
@@ -152,8 +197,9 @@ main {
   padding: 15px;
   text-transform: uppercase;
   color: white;
-  border-radius: 10px;
+  border-radius: 30px;
   text-decoration: none;
+  margin-left: 10px;
   border: none;
 }
 
@@ -310,8 +356,15 @@ main {
   padding-top: 20px;
 }
 
+.footer-heading {
+  text-transform: uppercase;
+  color: #dc3545;
+  font-size: 14px;
+}
+
 .features {
   padding: 30px;
+  padding-left: 5%;
 }
 
 .features-title {
@@ -344,6 +397,7 @@ main {
 
 .ceo-message {
   padding: 30px;
+  padding-left: 5%;
   color: #364d59;
   background-color: #f6f5f5;
 }
@@ -365,6 +419,7 @@ main {
 .expertise {
   background-color: #f6f5f5;
   padding: 10px 20px;
+  padding-left: 5%;
   color: #364d59;
 }
 
@@ -427,7 +482,7 @@ main {
 .amount {
   background-color: #222;
   color: white;
-  padding: 20px 10px;
+  padding: 20px 5%;
 }
 
 .amount-icon {
@@ -450,6 +505,7 @@ main {
 .news {
   text-align: center;
   padding: 30px;
+  padding-left: 5%;
 }
 
 .news-slider {
@@ -503,6 +559,7 @@ main {
 .testimonials {
   background-color: #f6f5f5;
   padding: 30px;
+  padding-left: 5%;
   text-align: center;
   color: #364d59;
 }
@@ -542,6 +599,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 30px;
+  padding-left: 5%;
   color: white;
   text-align: center;
   height: 45vh;
@@ -563,6 +621,7 @@ main {
 .blog {
   text-align: center;
   padding: 25px;
+  padding-left: 5%;
 }
 
 .blog-posts {
