@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7eifu9');
+  src:  url('fonts/icomoon.eot?7eifu9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7eifu9') format('truetype'),
+    url('fonts/icomoon.woff?7eifu9') format('woff'),
+    url('fonts/icomoon.svg?7eifu9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_forward:before {
+  content: "\e907";
+}
+.icon-face:before {
+  content: "\e901";
+}
+.icon-drafts:before {
+  content: "\e903";
+}
+.icon-redeem:before {
+  content: "\e904";
+}
+.icon-devices:before {
+  content: "\e905";
+}
+.icon-child_friendly:before {
+  content: "\e906";
+}
+.icon-clock-o:before {
+  content: "\f017";
+}
+.icon-download:before {
+  content: "\f019";
+}
+.icon-camera:before {
+  content: "\f030";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-dollar:before {
+  content: "\f155";
+}
+.icon-usd:before {
+  content: "\f155";
+}
+.icon-long-arrow-left:before {
+  content: "\f177";
+}
+.icon-building:before {
+  content: "\f1ad";
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}

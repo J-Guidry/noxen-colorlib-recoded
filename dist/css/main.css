@@ -94,8 +94,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -103,13 +104,18 @@ header {
   margin-top: 20px;
 }
 
+.mobile-btn {
+  background-color: white;
+}
+
+.social-nav {
+  margin-right: 3%;
+}
+
 .social-icon {
   fill: #dc3545;
   height: 15px;
-}
-
-.mobile-btn {
-  background-color: white;
+  margin-left: 20px;
 }
 
 .footer-nav {
@@ -122,6 +128,35 @@ header {
 
 .footer-nav li {
   line-height: 2.2rem;
+}
+
+@media screen and (min-width: 920px) {
+  .mobile-btn {
+    display: none;
+  }
+  .nav-bar {
+    display: block;
+    color: black;
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .desktop-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+  .desktop-nav a {
+    padding: 25px 15px;
+  }
 }
 
 main {
@@ -174,9 +209,16 @@ footer {
   display: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 920px) {
   .location-time {
-    display: block;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 86%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 0;
   }
 }
 
@@ -227,6 +269,20 @@ footer {
   z-index: -1;
 }
 
+.icon-color {
+  color: #dc3545;
+  fill: #dc3545;
+  font-size: 2.5rem;
+}
+
+.text {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
+
 .hero-img {
   background-image: url("../../images/hero_1.jpg");
   background-repeat: no-repeat;
@@ -247,6 +303,7 @@ footer {
 
 .logo {
   font-size: 2.4rem;
+  display: inline-block;
 }
 
 .dot {
@@ -280,6 +337,12 @@ footer {
 
 .service p {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.location-time p {
+  width: 80%;
+  display: inline-block;
+  line-height: 1.4rem;
 }
 
 .banner-heading {

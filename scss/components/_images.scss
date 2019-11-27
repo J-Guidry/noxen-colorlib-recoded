@@ -21,3 +21,17 @@
     height: 100%;
     z-index: -1;
 }
+
+.icon-color {
+    color: $red;
+    fill: $red;
+    font-size: 2.5rem;
+}
+
+.text {
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+}

@@ -1,3 +1,5 @@
+// MOBILE NAVIGATION STYLES
+
 .mobile-nav {
     position: fixed;
     right: 0;
@@ -45,23 +47,36 @@
     display: none;
 }
 
+// WHITE NAVIGATION BAR
+
 .bar {
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     margin-top: 20px;
 }
 
-.social-icon {
-    fill: $red;
-    height: 15px;
-}
-
 .mobile-btn {
     background-color: white;
 }
+
+.social-nav {
+    margin-right: 3%;
+}
+
+.social-icon {
+    fill: $red;
+    height: 15px;
+    margin-left: 20px;
+}
+
+
+
+
+
+// FOOTER NAVIGATION STYLES
 
 .footer-nav {
     color: rgba(255,255,255, 0.5);
@@ -73,4 +88,29 @@
 
 .footer-nav li {
     line-height: 2.2rem;
+}
+
+//DESKTOP NAVIGATION STYLES
+
+@media screen and (min-width: 920px) {
+    .mobile-btn { display: none }
+    .nav-bar {
+        display: block;
+        color: black;
+        width: 50%;
+        margin-left: 3%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .desktop-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .desktop-nav a {
+        padding: 25px 15px;
+    }
 }

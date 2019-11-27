@@ -2,8 +2,11 @@
     display: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 920px) {
     .location-time {
-        display: block;
+        display: inline-flex;
+        width: 86%;
+        justify-content: flex-end;
+        margin-left: 0;
     }
 }
