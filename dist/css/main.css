@@ -140,7 +140,7 @@ main {
   padding: 15px;
   text-transform: uppercase;
   color: white;
-  border-radius: 15px;
+  border-radius: 30px;
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -558,5 +558,24 @@ main {
   right: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
+}
+
+.blog {
+  text-align: center;
+  padding: 25px;
+}
+
+.blog-posts {
+  margin-top: 40px;
+  text-align: left;
+  color: #364d59;
+}
+
+.date {
+  color: #ccc;
+}
+
+.author {
+  color: #dc3545;
 }
 /*# sourceMappingURL=main.css.map */
