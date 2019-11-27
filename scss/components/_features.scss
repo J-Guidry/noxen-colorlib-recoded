@@ -1,6 +1,7 @@
 .features {
     padding: 30px;
     padding-left: 5%;
+    margin-bottom: 80px;
 }
 
 .features-title {
@@ -9,11 +10,13 @@
     color: $light-grey;
 }
 
+
 .feature {
     background-color: $blue-white;
     padding: 25px;
     margin-bottom: 20px;
     color: $dark-blue;
+    margin-right: 3%;
 }
 
 .feature-heading {
@@ -24,9 +27,13 @@
     fill: $dark-blue;
 }
 
-.feature-link {
-    max-width: 50%;
-    margin: auto;
-    display: block;
-    text-align: center;
+@media screen and (min-width: 920px) {
+    .feature-blocks {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 50px;
+    }
+    
 }

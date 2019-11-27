@@ -1,0 +1,78 @@
+.message-expertise {
+    background-color: $light-bg;
+}
+
+.ceo-message {
+    padding: 30px;
+    padding-left: 5%;
+    color: $dark-blue;
+}
+
+.signature {
+    width: 40%;
+    display: inline-block;
+}
+
+.name-title {
+    display: inline-block;
+    width: 40vw;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.expertise {
+    padding: 10px 20px;
+    padding-left: 5%;
+    color: $dark-blue;
+}
+
+.percent {
+    float: right;
+}
+
+.progress-bar {
+    background-color: $progress-bar;
+    height: 10px;
+}
+
+.writing {
+    width: 55%;
+    background-color: $red;
+    height: 10px;
+}
+
+.wordpress {
+    width: 85%;
+    background-color: $red;
+    height: 10px;
+}
+
+.bootstrap {
+    width: 93%;
+    background-color: $red;
+    height: 10px;
+}
+
+.jquery {
+    width: 83%;
+    background-color: $red;
+    height: 10px;
+}
+
+@media screen and (min-width: 920px) {
+    .ceo-message {
+        width: 50vw;
+    }
+    .expertise {
+        width: 50vw;
+    }
+    .message-expertise {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
