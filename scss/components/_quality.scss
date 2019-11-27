@@ -1,0 +1,23 @@
+.quality {
+    background-image: url('../../images/hero_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 80px 30px;
+    color: white;
+    text-align: center;
+    height: 45vh;
+    position: relative;
+    z-index: 1;
+}
+
+.quality::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: -1;
+}

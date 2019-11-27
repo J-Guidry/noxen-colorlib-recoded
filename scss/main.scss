@@ -3,13 +3,17 @@
 @import 'layout/_header.scss';
 @import 'layout/_navigation.scss';
 @import 'layout/_main.scss';
+@import 'layout/_banner.scss';
 
 @import 'components/_place-time.scss';
 @import 'components/_buttons.scss';
 @import 'components/_images.scss';
 @import 'components/_hero.scss';
 @import 'components/_logo.scss';
-@import 'components/_banner.scss';
+@import 'components/_paragraphs.scss';
+@import 'components/_section-headings.scss';
+
+
 @import 'components/_features.scss';
 @import 'components/_ceo-message.scss';
 @import 'components/_expertise.scss';
@@ -18,4 +22,5 @@
 @import 'components/_news.scss';
 @import 'components/_more-services.scss';
 @import 'components/_testimonials.scss';
+@import 'components/_quality.scss';
 

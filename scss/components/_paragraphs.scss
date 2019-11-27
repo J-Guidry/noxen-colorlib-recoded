@@ -1,0 +1,28 @@
+.banner-paragraph {
+    font-size: 19px;
+}
+
+.feature-paragraph {
+    color: $text-grey;
+}
+
+.services-paragraph {
+    max-width: 50%;
+    margin: auto;
+    line-height: 1.8rem;
+}
+
+.news p {
+    color: $dark-blue;
+    margin-bottom: 50px;
+}
+
+.quality-paragraph {
+    line-height: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.service p {
+    color: rgba(255,255,255, 0.6);
+}
