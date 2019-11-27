@@ -8,12 +8,6 @@
     color: $light-grey;
 }
 
-.features-heading {
-    text-align: center;
-    font-weight: 300;
-    color: $dark-blue;
-}
-
 .feature {
     background-color: $blue-white;
     padding: 25px;
@@ -21,16 +15,12 @@
     color: $dark-blue;
 }
 
-.feature h3 {
+.feature-heading {
     font-weight: 300;
 }
 
 .feature-icon {
     fill: $dark-blue;
-}
-
-.feature-paragraph {
-    color: $text-grey;
 }
 
 .feature-link {
