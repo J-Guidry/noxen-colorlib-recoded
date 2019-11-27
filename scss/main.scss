@@ -1,9 +1,12 @@
 @import 'base/_base.scss';
 
+@import 'layout/_header.scss';
+@import 'layout/_navigation.scss';
+@import 'layout/_main.scss';
+
 @import 'components/_place-time.scss';
 @import 'components/_buttons.scss';
 @import 'components/_images.scss';
-@import 'components/_navigation.scss';
 @import 'components/_hero.scss';
 @import 'components/_logo.scss';
 @import 'components/_banner.scss';
@@ -13,6 +16,5 @@
 @import 'components/_journey.scss';
 @import 'components/_amount.scss';
 @import 'components/_news.scss';
+@import 'components/_more-services.scss';
 
-@import 'layout/_header.scss';
-@import 'layout/_main.scss';

@@ -1,0 +1,54 @@
+.more-services {
+    background-image: url('../../images/img_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.more-services::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+.service-heading {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  padding-bottom: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.service {
+    margin: 25px 0;
+}
+
+.service p {
+    color: rgba(255,255,255, 0.6);
+}
+
+.service-img-circle {
+    border: 3px $red solid;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.service-img {
+    filter: invert(1);
+    font-size: 2rem;
+}
+
+.dollar-circle {
+    width: 27px;
+}
