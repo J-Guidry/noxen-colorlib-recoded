@@ -263,6 +263,22 @@ footer {
   border: none;
 }
 
+.feature-link {
+  max-width: 50%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 920px) {
+  .feature-link {
+    width: 20%;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+}
+
 .images {
   height: auto;
   max-width: 90%;
@@ -449,6 +465,7 @@ footer {
 .features {
   padding: 30px;
   padding-left: 5%;
+  margin-bottom: 80px;
 }
 
 .features-title {
@@ -462,6 +479,7 @@ footer {
   padding: 25px;
   margin-bottom: 20px;
   color: #364d59;
+  margin-right: 3%;
 }
 
 .feature-heading {
@@ -472,22 +490,31 @@ footer {
   fill: #364d59;
 }
 
-.feature-link {
-  max-width: 50%;
-  margin: auto;
-  display: block;
-  text-align: center;
+@media screen and (min-width: 920px) {
+  .feature-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 50px;
+  }
+}
+
+.message-expertise {
+  background-color: #f6f5f5;
 }
 
 .ceo-message {
   padding: 30px;
   padding-left: 5%;
   color: #364d59;
-  background-color: #f6f5f5;
 }
 
 .signature {
-  width: 40vw;
+  width: 40%;
   display: inline-block;
 }
 
@@ -501,7 +528,6 @@ footer {
 }
 
 .expertise {
-  background-color: #f6f5f5;
   padding: 10px 20px;
   padding-left: 5%;
   color: #364d59;
@@ -538,6 +564,28 @@ footer {
   width: 83%;
   background-color: #dc3545;
   height: 10px;
+}
+
+@media screen and (min-width: 920px) {
+  .ceo-message {
+    width: 50vw;
+  }
+  .expertise {
+    width: 50vw;
+  }
+  .message-expertise {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
 }
 
 .journey {

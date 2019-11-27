@@ -21,3 +21,20 @@
     margin-left: 10px;
     border: none;
 }
+
+.feature-link {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (min-width: 920px) {
+    .feature-link {
+        width: 20%;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    
+}
