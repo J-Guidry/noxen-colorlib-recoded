@@ -43,3 +43,11 @@
         margin: auto;
     }
 }
+
+@media screen and (min-width: 920px) {
+    .service p {
+        //width: 50%;
+        // text-align: center;
+        margin: 0;
+    }
+}

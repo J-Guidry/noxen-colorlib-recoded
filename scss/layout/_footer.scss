@@ -24,3 +24,22 @@ footer {
     height: 15px;
     fill: $red;
 }
+
+@media screen and (min-width: 940px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about-newsletter {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .footer-navs {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+    }
+
+}

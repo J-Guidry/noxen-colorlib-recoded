@@ -20,8 +20,10 @@
     background-color: rgba(0,0,0,0.6);
     z-index: -1;
 }
+
+
 .service {
-    margin: 25px 0;
+    margin: 25px 15px;
 }
 
 .service-img-circle {
@@ -38,4 +40,16 @@
 
 .dollar-circle {
     width: 27px;
+}
+
+@media screen and (min-width: 940px) {
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service {
+        max-width: 30%;
+    }
 }

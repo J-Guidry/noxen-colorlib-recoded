@@ -2,6 +2,7 @@
     background-color: $light-bg;
     padding: 30px;
     padding-left: 5%;
+    padding-bottom: 80px;
     text-align: center;
     color: $dark-blue;
 }
@@ -34,5 +35,17 @@
 .katie {
     background-image: url('../../images/person_3.jpg');
     background-size: contain;
+}
+
+@media screen and (min-width: 940px) {
+    .clients {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .client {
+        width: 25%;
+    }
 }
 

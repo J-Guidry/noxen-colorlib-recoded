@@ -216,6 +216,29 @@ footer {
   fill: #dc3545;
 }
 
+@media screen and (min-width: 940px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .about-newsletter {
+    width: 50%;
+    display: inline-block;
+  }
+  .footer-navs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 30%;
+  }
+}
+
 #email {
   padding: 15px 13px;
   border-radius: 3px;
@@ -384,6 +407,12 @@ footer {
   .news p {
     max-width: 50%;
     margin: auto;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .service p {
+    margin: 0;
   }
 }
 
@@ -704,7 +733,7 @@ footer {
 }
 
 .service {
-  margin: 25px 0;
+  margin: 25px 15px;
 }
 
 .service-img-circle {
@@ -724,10 +753,27 @@ footer {
   width: 27px;
 }
 
+@media screen and (min-width: 940px) {
+  .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .service {
+    max-width: 30%;
+  }
+}
+
 .testimonials {
   background-color: #f6f5f5;
   padding: 30px;
   padding-left: 5%;
+  padding-bottom: 80px;
   text-align: center;
   color: #364d59;
 }
@@ -760,6 +806,23 @@ footer {
 .katie {
   background-image: url("../../images/person_3.jpg");
   background-size: contain;
+}
+
+@media screen and (min-width: 940px) {
+  .clients {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .client {
+    width: 25%;
+  }
 }
 
 .quality {
@@ -804,5 +867,22 @@ footer {
 
 .author {
   color: #dc3545;
+}
+
+@media screen and (min-width: 940px) {
+  .blog-posts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .post {
+    max-width: 30%;
+    margin-right: 2%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
