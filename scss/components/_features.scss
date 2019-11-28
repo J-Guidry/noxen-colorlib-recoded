@@ -31,9 +31,19 @@
     .feature-blocks {
         display: flex;
         justify-content: space-around;
+
         margin-left: 3%;
         margin-right: 3%;
         margin-top: 50px;
+    }
+
+    .feature {
+        width: 20%;
+    }
+
+    .features-services-page {
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
 }
