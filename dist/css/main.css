@@ -380,6 +380,13 @@ footer {
   line-height: 1.4rem;
 }
 
+@media screen and (min-width: 850px) {
+  .news p {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
 .banner-heading {
   line-height: 2.5rem;
   font-size: 2.4rem;
@@ -460,6 +467,13 @@ footer {
   text-transform: uppercase;
   color: #dc3545;
   font-size: 14px;
+}
+
+@media screen and (min-width: 920px) {
+  .journey-heading {
+    line-height: 3rem;
+    max-width: 45%;
+  }
 }
 
 .features {
@@ -611,6 +625,13 @@ footer {
   z-index: -1;
 }
 
+@media screen and (min-width: 920px) {
+  .journey {
+    height: 40vh;
+    font-size: 2.2rem;
+  }
+}
+
 .amount {
   background-color: #222;
   color: white;
@@ -632,6 +653,21 @@ footer {
 .amount-number {
   color: #ffd692;
   font-size: 1.6rem;
+}
+
+@media screen and (min-width: 650px) {
+  .amount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .amount-number, .amount-description {
+    margin: 0;
+  }
 }
 
 .news {

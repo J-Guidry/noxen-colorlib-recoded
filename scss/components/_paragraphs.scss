@@ -31,8 +31,15 @@
 
 
 
-    .location-time p {
-        width: 80%;
-        display: inline-block;
-        line-height: 1.4rem;
+.location-time p {
+    width: 80%;
+    display: inline-block;
+    line-height: 1.4rem;
+}
+
+@media screen and (min-width: 850px) {
+    .news p {
+        max-width: 50%;
+        margin: auto;
     }
+}

@@ -19,3 +19,15 @@
     color: $yellow;
     font-size: 1.6rem;
 }
+
+@media screen and (min-width: 650px) {
+    .amount {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .amount-number, .amount-description {
+        margin: 0;
+    }
+}

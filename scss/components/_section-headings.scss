@@ -79,3 +79,10 @@
     color: $red;
     font-size: 14px;
 }
+
+@media screen and (min-width: 920px) {
+    .journey-heading {
+        line-height: 3rem;
+        max-width: 45%;
+    }
+}
