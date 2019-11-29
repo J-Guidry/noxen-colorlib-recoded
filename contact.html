@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Noxen</title>
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/icomoon-fonts/style.css">
     <link rel="stylesheet" href="./dist/css/normalize.css">
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
@@ -86,7 +87,6 @@
       <section class="banner banner-column">
         <h1 class="banner-heading">Contact Us</h1>
         <p class="banner-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum quod rem tempora alias cupiditate perspiciatis quos autem sunt quibusdam hic, dolorem saepe praesentium provident voluptatem. Non veniam aut et.</p>
-        <a href="#" class="lone-link">About Us</a>
       </section>
       </div>
 
@@ -94,12 +94,15 @@
     <h2 class="contact-heading">get in touch using the contact form</h2>
     <p class="contact-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat minima perferendis dolore excepturi debitis odio nam aliquam! Facilis sed voluptates sequi quisquam, maiores corrupti quis unde consectetur, voluptatem, asperiores qui.</p>
 
-    <form>
-      <input class="input-name" type="text" name="" id="" placeholder="First name" aria-label="first name input">
-      <input class="input-name" type="text" name="" id="" placeholder="Last name" aria-label="last name input">
+    <div class="contact-content">
+    <form class="contact-form">
+      <div class="contact-name-fields">
+        <input class="input-name" type="text" name="" id="" placeholder="First name" aria-label="first name input">
+        <input class="input-name" type="text" name="" id="" placeholder="Last name" aria-label="last name input">
+      </div>
       <input type="text" name="" id="" placeholder="Email address" aria-label="email address input">
-      <textarea name="" id="" cols="30" rows="10" placeholder="Write your message." aria-label="text area input"></textarea>
-      <button class="submit">send message</button>
+      <textarea class="content-text-area" name="" id="" cols="30" rows="10" placeholder="Write your message." aria-label="text area input"></textarea>
+      <button class="submit-contact">send message</button>
     </form>
     <div class="contact-info">
       <h2 class="contact-info-heading">contact info</h2>
@@ -114,6 +117,7 @@
       <p class="email-content">info@yourdomain.com</p>
 
     </div>
+  </div>
   </section>
 
 </main>

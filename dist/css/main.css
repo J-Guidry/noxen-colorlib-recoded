@@ -269,6 +269,95 @@ footer {
   border: none;
 }
 
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.contact-form * {
+  margin: 8px 0;
+  padding: 10px 0;
+  border: none;
+}
+
+.contact-name-fields {
+  margin-bottom: 0;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input-name {
+  width: 49%;
+  margin-top: 0;
+}
+
+.contact-form input::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+.contact-form input:-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact-form input::-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact-form input::placeholder {
+  padding: 10px;
+}
+
+.content-text-area::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+
+.content-text-area:-ms-input-placeholder {
+  padding-left: 10px;
+}
+
+.content-text-area::-ms-input-placeholder {
+  padding-left: 10px;
+}
+
+.content-text-area::placeholder {
+  padding-left: 10px;
+}
+
+.submit-contact {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 30px;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 50%;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 920px) {
+  .contact-form {
+    margin: auto;
+    width: 60%;
+  }
+  .contact-name-fields {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .location-time {
   display: none;
 }
@@ -439,6 +528,10 @@ footer {
     max-width: 50%;
     margin: auto;
   }
+  .contact-text {
+    max-width: 50%;
+    margin: 30px auto;
+  }
 }
 
 @media screen and (min-width: 920px) {
@@ -532,6 +625,10 @@ footer {
   display: block;
   margin: auto;
   padding-top: 20px;
+}
+
+.contact-heading {
+  text-transform: uppercase;
 }
 
 .footer-heading {
@@ -681,6 +778,59 @@ footer {
   .team-description {
     max-width: 50%;
     margin: auto;
+  }
+}
+
+.contact {
+  color: #364d59;
+  text-align: center;
+  background-color: #f6f5f5;
+  padding: 5% 0;
+}
+
+.contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-info {
+  background: white;
+  margin: auto;
+  width: 75%;
+  text-align: left;
+  padding: 40px;
+  text-transform: capitalize;
+}
+
+.contact-info-heading {
+  text-transform: capitalize;
+}
+
+.email-content {
+  text-transform: lowercase;
+}
+
+@media screen and (min-width: 920px) {
+  .contact-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 85%;
+    margin: auto;
+  }
+  .contact-info {
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 0px 30px;
   }
 }
 

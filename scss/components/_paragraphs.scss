@@ -30,7 +30,6 @@
 }
 
 
-
 .location-time p {
     width: 80%;
     display: inline-block;
@@ -42,6 +41,12 @@
         max-width: 50%;
         margin: auto;
     }
+
+    .contact-text {
+        max-width: 50%;
+        margin: 30px auto;
+    }
+    
 }
 
 @media screen and (min-width: 920px) {
