@@ -5,23 +5,28 @@
     position: relative;
     padding-bottom: 50px;
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 @media screen and (min-width: 920px) {
     .banner {
         display: flex;
+        flex-direction: row;
         max-width: 85%;
         margin: auto;
     }
 
-    .services-banner {
+    .banner-column {
         display: block;
         text-align: center;
         width: 50%;
         margin: auto;
     }
 
-    .services-banner h1 {
+    .banner-column h1 {
         margin: auto;
     }
 

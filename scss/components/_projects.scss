@@ -1,0 +1,55 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    color: white;
+    // max-width: 90%;
+    margin: 100px 5%;
+}
+
+.project {
+    text-align: center;
+    padding: 50px 20px;
+    margin: 10px 0;
+    // margin: 5px;
+}
+
+.project::before {
+    @include opaque-background();
+}
+
+.project-description {
+    width: 80%;
+    margin: auto;
+}
+
+.project-title {
+    color: $red;
+}
+
+.project-1 {
+    @include background-image('../../images/img_1.jpg', cover);
+}
+
+.project-2 {
+    @include background-image('../../images/img_2.jpg', cover);
+}
+
+.project-3 {
+    @include background-image('../../images/img_3.jpg', cover);
+}
+
+@media screen and (min-width:940px) and (max-width: 1035px) {
+    .project {
+        max-width: 30%;
+        margin: 7px auto;
+    } 
+}
+
+@media screen and (min-width: 1035px) {
+    .project {
+        max-width: 25vw;
+        margin: 7px auto;
+    }
+}

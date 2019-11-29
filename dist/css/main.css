@@ -178,6 +178,16 @@ main {
   position: relative;
   padding-bottom: 50px;
   margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 920px) {
@@ -185,16 +195,20 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     max-width: 85%;
     margin: auto;
   }
-  .services-banner {
+  .banner-column {
     display: block;
     text-align: center;
     width: 50%;
     margin: auto;
   }
-  .services-banner h1 {
+  .banner-column h1 {
     margin: auto;
   }
   .banner-content {
@@ -358,23 +372,29 @@ footer {
   width: 1px;
 }
 
+.project img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .hero-img {
+  position: relative;
+  z-index: 1;
   background-image: url("../../images/hero_1.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-  position: relative;
   padding-bottom: 8.0rem;
 }
 
 .hero-img::before {
-  content: "";
   position: absolute;
+  content: "";
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
 .logo {
@@ -435,6 +455,11 @@ footer {
 }
 
 .banner-heading {
+  text-align: center;
+}
+
+.banner-heading-home {
+  text-align: left;
   line-height: 2.5rem;
   font-size: 2.4rem;
   width: 80%;
@@ -520,6 +545,84 @@ footer {
   .journey-heading {
     line-height: 3rem;
     max-width: 45%;
+  }
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: white;
+  margin: 100px 5%;
+}
+
+.project {
+  text-align: center;
+  padding: 50px 20px;
+  margin: 10px 0;
+}
+
+.project::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.project-description {
+  width: 80%;
+  margin: auto;
+}
+
+.project-title {
+  color: #dc3545;
+}
+
+.project-1 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../../images/img_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-2 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../../images/img_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-3 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../../images/img_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 940px) and (max-width: 1035px) {
+  .project {
+    max-width: 30%;
+    margin: 7px auto;
+  }
+}
+
+@media screen and (min-width: 1035px) {
+  .project {
+    max-width: 25vw;
+    margin: 7px auto;
   }
 }
 
@@ -660,6 +763,8 @@ footer {
 }
 
 .journey {
+  position: relative;
+  z-index: 1;
   background-image: url("../../images/img_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -667,8 +772,6 @@ footer {
   text-align: center;
   color: white;
   margin-top: 50px;
-  position: relative;
-  z-index: 1;
 }
 
 .journey::before {
@@ -684,15 +787,15 @@ footer {
 
 @media screen and (min-width: 920px) {
   .journey {
-    height: 40vh;
     font-size: 2.2rem;
+    padding-bottom: 8rem;
   }
 }
 
 .amount {
   background-color: #222;
   color: white;
-  padding: 20px 5%;
+  padding: 4rem 5%;
 }
 
 .amount-icon {
@@ -738,6 +841,8 @@ footer {
 }
 
 .more-services {
+  position: relative;
+  z-index: 1;
   background-image: url("../../images/img_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -745,17 +850,15 @@ footer {
   color: white;
   text-align: center;
   padding: 10%;
-  position: relative;
-  z-index: 1;
 }
 
 .more-services::before {
-  content: "";
   position: absolute;
+  content: "";
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
@@ -854,6 +957,8 @@ footer {
 }
 
 .quality {
+  position: relative;
+  z-index: 1;
   background-image: url("../../images/hero_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -862,17 +967,15 @@ footer {
   color: white;
   text-align: center;
   height: 45vh;
-  position: relative;
-  z-index: 1;
 }
 
 .quality::before {
-  content: "";
   position: absolute;
+  content: "";
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }

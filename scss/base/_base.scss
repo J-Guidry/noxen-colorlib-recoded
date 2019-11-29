@@ -40,4 +40,23 @@ $links: #212529;
 $progress-bar: #e9ecef;
 $yellow: #ffd692;
 
+//background image
+@mixin background-image($url, $size) {
+    position: relative;
+    z-index: 1;
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: $size;
+}
 
+//opaque background
+@mixin opaque-background {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
