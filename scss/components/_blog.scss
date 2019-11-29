@@ -18,10 +18,27 @@
     color: $red;
 }
 
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin: 50px auto;
+}
+
+.page-number {
+    margin-right: 20px;
+    color: $red;
+}
+
+.page-active {
+    color: $dark-blue;
+}
+
 @media screen and (min-width: 940px) {
     .blog-posts {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -29,4 +46,10 @@
         max-width: 30%;
         margin-right: 2%;
     }
+
+    .pagination {
+        max-width: 20%;
+        margin: auto;
+    }
+    
 }

@@ -467,6 +467,10 @@ footer {
   line-height: 2.2rem;
 }
 
+.blog-heading {
+  font-size: 2.6rem;
+}
+
 .red-heading {
   position: relative;
   color: #dc3545;
@@ -1056,13 +1060,33 @@ footer {
   color: #dc3545;
 }
 
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 60%;
+  margin: 50px auto;
+}
+
+.page-number {
+  margin-right: 20px;
+  color: #dc3545;
+}
+
+.page-active {
+  color: #364d59;
+}
+
 @media screen and (min-width: 940px) {
   .blog-posts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1070,6 +1094,10 @@ footer {
   .post {
     max-width: 30%;
     margin-right: 2%;
+  }
+  .pagination {
+    max-width: 20%;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
