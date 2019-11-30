@@ -23,7 +23,7 @@
 
 .cross {
     display: block;
-    margin-left: auto;
+    margin: 40px 20px 20px auto;
 }
 
 .mobile-nav--li {
@@ -45,6 +45,10 @@
 
 .desktop-nav {
     display: none;
+}
+
+.toggle-mobile {
+    transform: translatex(0);
 }
 
 // WHITE NAVIGATION BAR
