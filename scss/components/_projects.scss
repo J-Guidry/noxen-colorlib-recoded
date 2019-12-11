@@ -12,11 +12,20 @@
     text-align: center;
     padding: 50px 20px;
     margin: 10px 0;
-    // margin: 5px;
 }
 
-.project::before {
+.project-content {
+    visibility: hidden;
+}
+
+.project:hover:before {
     @include opaque-background();
+    background-color: rgba(0,0,0,0.8);
+    
+}
+
+.project:hover .project-content {
+    visibility: visible;
 }
 
 .project-description {
@@ -26,6 +35,8 @@
 
 .project-title {
     color: $red;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .project-1 {

@@ -507,7 +507,7 @@ footer {
   line-height: 1.8rem;
 }
 
-.news p {
+.news-heading-paragraph {
   color: #364d59;
   margin-bottom: 50px;
 }
@@ -669,7 +669,11 @@ footer {
   margin: 10px 0;
 }
 
-.project::before {
+.project-content {
+  visibility: hidden;
+}
+
+.project:hover:before {
   position: absolute;
   content: "";
   top: 0;
@@ -678,6 +682,11 @@ footer {
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.project:hover .project-content {
+  visibility: visible;
 }
 
 .project-description {
@@ -687,6 +696,8 @@ footer {
 
 .project-title {
   color: #dc3545;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .project-1 {
@@ -1050,7 +1061,75 @@ footer {
 }
 
 .news-slider {
-  display: none;
+  width: 80%;
+  margin: auto;
+}
+
+.slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.news-content {
+  color: white;
+}
+
+.news-content {
+  visibility: hidden;
+}
+
+.news-description {
+  width: 80%;
+  margin: auto;
+}
+
+.event:hover:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.event:hover .news-content {
+  visibility: visible;
+}
+
+.news-1 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../../images/img_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.news-2 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../../images/img_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.news-3 {
+  position: relative;
+  z-index: 1;
+  background-image: url("../../images/img_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .more-services {

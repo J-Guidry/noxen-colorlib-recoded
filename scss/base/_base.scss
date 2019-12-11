@@ -50,7 +50,7 @@ $yellow: #ffd692;
     background-position: center;
 }
 
-//opaque background
+//opaque background for pseudo element
 @mixin opaque-background {
     position: absolute;
     content: "";
