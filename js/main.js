@@ -13,3 +13,28 @@ exitMobileNav.addEventListener("click", function(){
 });
 
 // IMAGE SLIDESHOW
+let slider = tns({
+    container: '.news-slider',
+    items: 1,
+    autoplay: true,
+    controls: false,
+    navPosition: "bottom",
+    autoplayButtonOutput: false,
+    mouseDrag: true,
+    // gutter: 20,
+    // edgePadding: 20,
+    responsive: {
+      640: {
+        edgePadding: 20,
+        gutter: 20,
+        items: 2
+      },
+      700: {
+        gutter: 30
+      },
+      900: {
+        items: 3,
+        gutter: 20,
+      }
+    }
+  });

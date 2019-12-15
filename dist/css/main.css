@@ -1057,23 +1057,11 @@ footer {
 .news {
   text-align: center;
   padding: 30px;
-  padding-left: 5%;
 }
 
 .news-slider {
   width: 80%;
   margin: auto;
-}
-
-.slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
 }
 
 .news-content {
@@ -1105,6 +1093,23 @@ footer {
   visibility: visible;
 }
 
+.tns-active {
+  height: 20px;
+}
+
+.tns-nav {
+  text-align: center;
+}
+
+.tns-nav button {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: gray;
+}
+
 .news-1 {
   position: relative;
   z-index: 1;
@@ -1130,6 +1135,10 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.event {
+  height: 400px;
 }
 
 .more-services {

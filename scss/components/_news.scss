@@ -1,27 +1,13 @@
 .news {
     text-align: center;
     padding: 30px;
-    padding-left: 5%;
 }
 
-// .news-slider img {
-//     display: inline-block;
-//     width: 25%;
-// }
-
 .news-slider {
-
     width:80%;
-
     margin: auto;
 }
 
-.slide {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    // height: 500px;
-}
 
 .news-content {
     color: white;
@@ -46,6 +32,23 @@
     visibility: visible;
 }
 
+.tns-active {
+    height: 20px;
+  }
+
+  .tns-nav {
+    text-align: center;
+  }
+
+  .tns-nav button {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: gray;
+  }
+
 .news-1 {
     @include background-image('../../images/img_1.jpg', cover);
 }
@@ -56,4 +59,8 @@
 
 .news-3 {
     @include background-image('../../images/img_3.jpg', cover);
+}
+
+.event {
+    height: 400px;
 }
