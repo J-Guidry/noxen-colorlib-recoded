@@ -25,6 +25,10 @@ footer {
     fill: $red;
 }
 
+.footer-nav li:hover {
+    color: #fff;
+} 
+
 @media screen and (min-width: 940px) {
     .footer {
         display: flex;

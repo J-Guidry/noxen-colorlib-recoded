@@ -80,7 +80,7 @@ header {
   padding-bottom: 10px;
 }
 
-.mobile-nav--li a {
+.mobile-links {
   padding: 10px;
   display: inline-block;
   width: 100%;
@@ -128,6 +128,10 @@ header {
   fill: #dc3545;
   height: 15px;
   margin-left: 20px;
+}
+
+.active-nav {
+  color: #dc3545;
 }
 
 .footer-nav {
@@ -243,6 +247,10 @@ footer {
 .heart {
   height: 15px;
   fill: #dc3545;
+}
+
+.footer-nav li:hover {
+  color: #fff;
 }
 
 @media screen and (min-width: 940px) {
@@ -393,6 +401,10 @@ footer {
   letter-spacing: 2px;
 }
 
+.lone-link:hover {
+  background-color: #bb2d3b;
+}
+
 .form-submit {
   background-color: #dc3545;
   padding: 15px;
@@ -402,6 +414,11 @@ footer {
   text-decoration: none;
   margin-left: 10px;
   border: none;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #bb2d3b;
 }
 
 .feature-link {
@@ -1064,6 +1081,11 @@ footer {
   margin: auto;
 }
 
+.news-title {
+  text-transform: uppercase;
+  color: #dc3545;
+}
+
 .news-content {
   color: white;
 }
@@ -1139,6 +1161,11 @@ footer {
 
 .event {
   height: 400px;
+}
+
+.event:active {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .more-services {

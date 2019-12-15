@@ -11,6 +11,10 @@
     letter-spacing: 2px;
 }
 
+.lone-link:hover {
+    background-color: rgb(187, 45, 59);
+}
+
 .form-submit {
     background-color: $red;
     padding: 15px;
@@ -20,6 +24,11 @@
     text-decoration: none;
     margin-left: 10px;
     border: none;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgb(187, 45, 59);
 }
 
 .feature-link {
